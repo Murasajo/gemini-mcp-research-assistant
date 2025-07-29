@@ -1,0 +1,20 @@
+{
+  "2304.05133v2": {
+    "title": "Lecture Notes: Neural Network Architectures",
+    "authors": [
+      "Evelyn Herberg"
+    ],
+    "summary": "These lecture notes provide an overview of Neural Network architectures from\na mathematical point of view. Especially, Machine Learning with Neural Networks\nis seen as an optimization problem. Covered are an introduction to Neural\nNetworks and the following architectures: Feedforward Neural Network,\nConvolutional Neural Network, ResNet, and Recurrent Neural Network.",
+    "pdf_url": "http://arxiv.org/pdf/2304.05133v2",
+    "published": "2023-04-11"
+  },
+  "cs/0504056v1": {
+    "title": "Self-Organizing Multilayered Neural Networks of Optimal Complexity",
+    "authors": [
+      "V. Schetinin"
+    ],
+    "summary": "The principles of self-organizing the neural networks of optimal complexity\nis considered under the unrepresentative learning set. The method of\nself-organizing the multi-layered neural networks is offered and used to train\nthe logical neural networks which were applied to the medical diagnostics.",
+    "pdf_url": "http://arxiv.org/pdf/cs/0504056v1",
+    "published": "2005-04-13"
+  }
+}

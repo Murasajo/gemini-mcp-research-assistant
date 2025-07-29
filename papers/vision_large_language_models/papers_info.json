@@ -1,0 +1,29 @@
+{
+  "2507.11153v1": {
+    "title": "Assessing Color Vision Test in Large Vision-language Models",
+    "authors": [
+      "Hongfei Ye",
+      "Bin Chen",
+      "Wenxi Liu",
+      "Yu Zhang",
+      "Zhao Li",
+      "Dandan Ni",
+      "Hongyang Chen"
+    ],
+    "summary": "With the widespread adoption of large vision-language models, the capacity\nfor color vision in these models is crucial. However, the color vision\nabilities of large visual-language models have not yet been thoroughly\nexplored. To address this gap, we define a color vision testing task for large\nvision-language models and construct a dataset \\footnote{Anonymous Github\nShowing some of the data\nhttps://anonymous.4open.science/r/color-vision-test-dataset-3BCD} that covers\nmultiple categories of test questions and tasks of varying difficulty levels.\nFurthermore, we analyze the types of errors made by large vision-language\nmodels and propose fine-tuning strategies to enhance their performance in color\nvision tests.",
+    "pdf_url": "http://arxiv.org/pdf/2507.11153v1",
+    "published": "2025-07-15"
+  },
+  "2301.12597v3": {
+    "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+    "authors": [
+      "Junnan Li",
+      "Dongxu Li",
+      "Silvio Savarese",
+      "Steven Hoi"
+    ],
+    "summary": "The cost of vision-and-language pre-training has become increasingly\nprohibitive due to end-to-end training of large-scale models. This paper\nproposes BLIP-2, a generic and efficient pre-training strategy that bootstraps\nvision-language pre-training from off-the-shelf frozen pre-trained image\nencoders and frozen large language models. BLIP-2 bridges the modality gap with\na lightweight Querying Transformer, which is pre-trained in two stages. The\nfirst stage bootstraps vision-language representation learning from a frozen\nimage encoder. The second stage bootstraps vision-to-language generative\nlearning from a frozen language model. BLIP-2 achieves state-of-the-art\nperformance on various vision-language tasks, despite having significantly\nfewer trainable parameters than existing methods. For example, our model\noutperforms Flamingo80B by 8.7% on zero-shot VQAv2 with 54x fewer trainable\nparameters. We also demonstrate the model's emerging capabilities of zero-shot\nimage-to-text generation that can follow natural language instructions.",
+    "pdf_url": "http://arxiv.org/pdf/2301.12597v3",
+    "published": "2023-01-30"
+  }
+}

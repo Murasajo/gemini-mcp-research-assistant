@@ -1,0 +1,32 @@
+{
+  "2306.07377v1": {
+    "title": "Lost in Translation: Large Language Models in Non-English Content Analysis",
+    "authors": [
+      "Gabriel Nicholas",
+      "Aliya Bhatia"
+    ],
+    "summary": "In recent years, large language models (e.g., Open AI's GPT-4, Meta's LLaMa,\nGoogle's PaLM) have become the dominant approach for building AI systems to\nanalyze and generate language online. However, the automated systems that\nincreasingly mediate our interactions online -- such as chatbots, content\nmoderation systems, and search engines -- are primarily designed for and work\nfar more effectively in English than in the world's other 7,000 languages.\nRecently, researchers and technology companies have attempted to extend the\ncapabilities of large language models into languages other than English by\nbuilding what are called multilingual language models.\n  In this paper, we explain how these multilingual language models work and\nexplore their capabilities and limits. Part I provides a simple technical\nexplanation of how large language models work, why there is a gap in available\ndata between English and other languages, and how multilingual language models\nattempt to bridge that gap. Part II accounts for the challenges of doing\ncontent analysis with large language models in general and multilingual\nlanguage models in particular. Part III offers recommendations for companies,\nresearchers, and policymakers to keep in mind when considering researching,\ndeveloping and deploying large and multilingual language models.",
+    "pdf_url": "http://arxiv.org/pdf/2306.07377v1",
+    "published": "2023-06-12"
+  },
+  "2202.03371v1": {
+    "title": "Cedille: A large autoregressive French language model",
+    "authors": [
+      "Martin M\u00fcller",
+      "Florian Laurent"
+    ],
+    "summary": "Scaling up the size and training of autoregressive language models has\nenabled novel ways of solving Natural Language Processing tasks using zero-shot\nand few-shot learning. While extreme-scale language models such as GPT-3 offer\nmultilingual capabilities, zero-shot learning for languages other than English\nremain largely unexplored. Here, we introduce Cedille, a large open source\nauto-regressive language model, specifically trained for the French language.\nOur results show that Cedille outperforms existing French language models and\nis competitive with GPT-3 on a range of French zero-shot benchmarks.\nFurthermore, we provide an in-depth comparison of the toxicity exhibited by\nthese models, showing that Cedille marks an improvement in language model\nsafety thanks to dataset filtering.",
+    "pdf_url": "http://arxiv.org/pdf/2202.03371v1",
+    "published": "2022-02-07"
+  },
+  "2305.06530v1": {
+    "title": "How Good are Commercial Large Language Models on African Languages?",
+    "authors": [
+      "Jessica Ojo",
+      "Kelechi Ogueji"
+    ],
+    "summary": "Recent advancements in Natural Language Processing (NLP) has led to the\nproliferation of large pretrained language models. These models have been shown\nto yield good performance, using in-context learning, even on unseen tasks and\nlanguages. They have also been exposed as commercial APIs as a form of\nlanguage-model-as-a-service, with great adoption. However, their performance on\nAfrican languages is largely unknown. We present a preliminary analysis of\ncommercial large language models on two tasks (machine translation and text\nclassification) across eight African languages, spanning different language\nfamilies and geographical areas. Our results suggest that commercial language\nmodels produce below-par performance on African languages. We also find that\nthey perform better on text classification than machine translation. In\ngeneral, our findings present a call-to-action to ensure African languages are\nwell represented in commercial large language models, given their growing\npopularity.",
+    "pdf_url": "http://arxiv.org/pdf/2305.06530v1",
+    "published": "2023-05-11"
+  }
+}

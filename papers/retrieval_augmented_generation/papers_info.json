@@ -1,0 +1,62 @@
+{
+  "2406.13249v2": {
+    "title": "R^2AG: Incorporating Retrieval Information into Retrieval Augmented Generation",
+    "authors": [
+      "Fuda Ye",
+      "Shuangyin Li",
+      "Yongqi Zhang",
+      "Lei Chen"
+    ],
+    "summary": "Retrieval augmented generation (RAG) has been applied in many scenarios to\naugment large language models (LLMs) with external documents provided by\nretrievers. However, a semantic gap exists between LLMs and retrievers due to\ndifferences in their training objectives and architectures. This misalignment\nforces LLMs to passively accept the documents provided by the retrievers,\nleading to incomprehension in the generation process, where the LLMs are\nburdened with the task of distinguishing these documents using their inherent\nknowledge. This paper proposes R$^2$AG, a novel enhanced RAG framework to fill\nthis gap by incorporating Retrieval information into Retrieval Augmented\nGeneration. Specifically, R$^2$AG utilizes the nuanced features from the\nretrievers and employs a R$^2$-Former to capture retrieval information. Then, a\nretrieval-aware prompting strategy is designed to integrate retrieval\ninformation into LLMs' generation. Notably, R$^2$AG suits low-source scenarios\nwhere LLMs and retrievers are frozen. Extensive experiments across five\ndatasets validate the effectiveness, robustness, and efficiency of R$^2$AG. Our\nanalysis reveals that retrieval information serves as an anchor to aid LLMs in\nthe generation process, thereby filling the semantic gap.",
+    "pdf_url": "http://arxiv.org/pdf/2406.13249v2",
+    "published": "2024-06-19"
+  },
+  "2202.01110v2": {
+    "title": "A Survey on Retrieval-Augmented Text Generation",
+    "authors": [
+      "Huayang Li",
+      "Yixuan Su",
+      "Deng Cai",
+      "Yan Wang",
+      "Lemao Liu"
+    ],
+    "summary": "Recently, retrieval-augmented text generation attracted increasing attention\nof the computational linguistics community. Compared with conventional\ngeneration models, retrieval-augmented text generation has remarkable\nadvantages and particularly has achieved state-of-the-art performance in many\nNLP tasks. This paper aims to conduct a survey about retrieval-augmented text\ngeneration. It firstly highlights the generic paradigm of retrieval-augmented\ngeneration, and then it reviews notable approaches according to different tasks\nincluding dialogue response generation, machine translation, and other\ngeneration tasks. Finally, it points out some important directions on top of\nrecent methods to facilitate future research.",
+    "pdf_url": "http://arxiv.org/pdf/2202.01110v2",
+    "published": "2022-02-02"
+  },
+  "2407.03955v1": {
+    "title": "Meta-prompting Optimized Retrieval-augmented Generation",
+    "authors": [
+      "Jo\u00e3o Rodrigues",
+      "Ant\u00f3nio Branco"
+    ],
+    "summary": "Retrieval-augmented generation resorts to content retrieved from external\nsources in order to leverage the performance of large language models in\ndownstream tasks. The excessive volume of retrieved content, the possible\ndispersion of its parts, or their out of focus range may happen nevertheless to\neventually have a detrimental rather than an incremental effect. To mitigate\nthis issue and improve retrieval-augmented generation, we propose a method to\nrefine the retrieved content before it is included in the prompt by resorting\nto meta-prompting optimization. Put to empirical test with the demanding\nmulti-hop question answering task from the StrategyQA dataset, the evaluation\nresults indicate that this method outperforms a similar retrieval-augmented\nsystem but without this method by over 30%.",
+    "pdf_url": "http://arxiv.org/pdf/2407.03955v1",
+    "published": "2024-07-04"
+  },
+  "2406.03790v2": {
+    "title": "End-to-End Trainable Retrieval-Augmented Generation for Relation Extraction",
+    "authors": [
+      "Kohei Makino",
+      "Makoto Miwa",
+      "Yutaka Sasaki"
+    ],
+    "summary": "This paper addresses a crucial challenge in retrieval-augmented\ngeneration-based relation extractors; the end-to-end training is not applicable\nto conventional retrieval-augmented generation due to the non-differentiable\nnature of instance retrieval. This problem prevents the instance retrievers\nfrom being optimized for the relation extraction task, and conventionally it\nmust be trained with an objective different from that for relation extraction.\nTo address this issue, we propose a novel End-to-end Trainable\nRetrieval-Augmented Generation (ETRAG), which allows end-to-end optimization of\nthe entire model, including the retriever, for the relation extraction\nobjective by utilizing a differentiable selection of the $k$ nearest instances.\nWe evaluate the relation extraction performance of ETRAG on the TACRED dataset,\nwhich is a standard benchmark for relation extraction. ETRAG demonstrates\nconsistent improvements against the baseline model as retrieved instances are\nadded. Furthermore, the analysis of instances retrieved by the end-to-end\ntrained retriever confirms that the retrieved instances contain common relation\nlabels or entities with the query and are specialized for the target task. Our\nfindings provide a promising foundation for future research on\nretrieval-augmented generation and the broader applications of text generation\nin Natural Language Processing.",
+    "pdf_url": "http://arxiv.org/pdf/2406.03790v2",
+    "published": "2024-06-06"
+  },
+  "2405.13002v1": {
+    "title": "DuetRAG: Collaborative Retrieval-Augmented Generation",
+    "authors": [
+      "Dian Jiao",
+      "Li Cai",
+      "Jingsheng Huang",
+      "Wenqiao Zhang",
+      "Siliang Tang",
+      "Yueting Zhuang"
+    ],
+    "summary": "Retrieval-Augmented Generation (RAG) methods augment the input of Large\nLanguage Models (LLMs) with relevant retrieved passages, reducing factual\nerrors in knowledge-intensive tasks. However, contemporary RAG approaches\nsuffer from irrelevant knowledge retrieval issues in complex domain questions\n(e.g., HotPot QA) due to the lack of corresponding domain knowledge, leading to\nlow-quality generations. To address this issue, we propose a novel\nCollaborative Retrieval-Augmented Generation framework, DuetRAG. Our\nbootstrapping philosophy is to simultaneously integrate the domain fintuning\nand RAG models to improve the knowledge retrieval quality, thereby enhancing\ngeneration quality. Finally, we demonstrate DuetRAG' s matches with expert\nhuman researchers on HotPot QA.",
+    "pdf_url": "http://arxiv.org/pdf/2405.13002v1",
+    "published": "2024-05-12"
+  }
+}

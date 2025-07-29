@@ -1,0 +1,3 @@
+Summary of Retrieval Augmented Generation (RAG) Research:
+
+A recent paper titled "R^2AG: Incorporating Retrieval Information into Retrieval Augmented Generation" explores how to improve RAG by addressing the semantic gap between Large Language Models (LLMs) and retrievers. The paper proposes a framework called R^2AG that incorporates retrieval information into the generation process. This is achieved by using features from the retrievers and a R^2-Former to capture retrieval information, along with a retrieval-aware prompting strategy. The results show that this approach enhances the effectiveness, robustness, and efficiency of RAG, particularly in low-resource scenarios.
